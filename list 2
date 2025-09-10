@@ -1,0 +1,9 @@
+a=[]
+n=int(input("enter a number to be added in list"))
+for i in range(0,n):
+    m=int(input("enter a number:"))
+    a.append(m)
+print(a)
+
+    
+    
