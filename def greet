@@ -1,0 +1,4 @@
+def greet():
+    name=input("enter name")
+    return name
+print("welcome to coding:",greet())
