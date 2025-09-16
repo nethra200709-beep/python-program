@@ -1,0 +1,6 @@
+f1=open('txt2file.txt','r')
+l=f1.readline()
+while(l!=''):
+    print(l)
+    l=f1.readline()
+f1.close()    
