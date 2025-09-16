@@ -1,0 +1,9 @@
+try:
+    n=int(input("enter a value"))
+    result=50/n
+except zerodivisionError:
+    print("you have given 0 as value.it is division by zero error")
+else:
+    print(result)
+finally:
+    print("successfully completed")
