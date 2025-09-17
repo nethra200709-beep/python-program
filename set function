@@ -1,0 +1,10 @@
+s1={1,2,3,4,'a'}
+s2={'a','b','c','d'}
+a=s1|s2
+b=s1&s2
+c=s1-s2
+d=s1^s2
+print('union:',a)
+print('intersection:',b)
+print('difference:',c)
+print('symmetric difference:',d)
