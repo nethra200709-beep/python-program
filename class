@@ -1,0 +1,14 @@
+class stud:
+    def __init__ (self,a,b,c):
+        self.sno=a
+        self.name=b
+        self.age=c
+    def disp(self):
+        print("student roll no:",self.sno)
+        print("student name:",self.name)
+        print("student age:",self.age)
+x=int(input("enter roll no:"))
+y=input("enter name:")
+z=int(input("enter a age:"))
+ob=stud(x,y,z)
+ob.disp()
